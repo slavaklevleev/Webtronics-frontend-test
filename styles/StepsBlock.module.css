@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.borderWrapper {
+    width: 140%;
+    margin-left: -20%;
+    margin-bottom: 180px;
+}
+
+.innerWrapper {
+    width: 1160px;
+    margin: auto;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 75%;
+    border-radius: 2px;
+    background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+    ;
+    bottom: 164px;
+    left: 50%;
+    margin-left: -2px;
+}

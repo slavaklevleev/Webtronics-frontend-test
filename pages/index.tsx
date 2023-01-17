@@ -6,6 +6,7 @@ import { Header } from './components/Header'
 import { WelcomeBlock } from './components/WelcomeBlock'
 import { About } from './components/About'
 import { ProgrammingTechnologies } from './components/ProgrammingTechnologesBlock'
+import { StepsBlock } from './components/StepsBlock'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
       <WelcomeBlock/>
       <About/>
       <ProgrammingTechnologies/>
+      <StepsBlock/>
     </div>
   )
 }
