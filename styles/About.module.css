@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.mentorsBlock {
+    display: flex;
+    flex-direction: column;
+    width: 618px;
+}
+
+.curvedLines {
+    background-image: url('./../public/assets/svg/lines.svg');
+    width: 394px;
+    height: 157px;
+    margin: auto;
+}
+
+.mentorsHeader {
+    text-align: center;
+}
+
+.mentorsWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.mentorsWrapper div:nth-child(2) {
+    margin-top: -54px;
+}
+
+.description {
+    margin-top: 85px;
+    max-width: 486px;
+
+}
+
+.descriptionBlock {
+    position: relative;
+}
+
+.frontLetters {
+    position: relative;
+    width: 757px;
+    height: 185px;
+    background-image: url('./../public/assets/svg/FrontEnd.svg');
+    top: 80px;
+    left: 100px;
+}

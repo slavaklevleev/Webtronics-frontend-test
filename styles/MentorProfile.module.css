@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 11px;
+}
+
+.photo {
+    padding: 3px;
+    margin-bottom: 18px;
+    border-radius: 50%;
+    background: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%) no-repeat;
+    -webkit-mask:
+        linear-gradient(#fff 0 1) padding-box,
+        linear-gradient(#fff 0 1);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.name {
+    margin-bottom: 4px;
+}
