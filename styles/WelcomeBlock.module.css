@@ -1,0 +1,56 @@
+.grid {
+    display: grid;
+
+    width: 65%;
+    margin: auto;
+
+    /* grid-template-columns: repeat(2, 1fr); */
+
+    grid-template-areas:
+        "h1_1 h1_1 p"
+        "b h1_2 h1_2"
+        ". . h3";
+
+    column-gap: 24px;
+
+    align-items: center;
+}
+
+.h1_1 {
+    grid-area: h1_1;
+    white-space: nowrap;
+    text-align: right;
+    margin-right: 33px;
+}
+
+.p {
+    grid-area: p;
+    width: 359px;
+    align-self: center;
+}
+
+.b {
+    grid-area: b;
+    white-space: nowrap;
+}
+
+.h1_2 {
+    grid-area: h1_2;
+}
+
+.h3 {
+    grid-area: h3;
+    text-align: right;
+}
+
+.programmer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0)50%,
+            rgba(13, 16, 43, 1) 80%), url('./../assets/png/programmer.png');
+    background-repeat: no-repeat;
+    z-index: -1;
+}

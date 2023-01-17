@@ -8,7 +8,7 @@ interface NavElementsProps {
 export function NavElement(props: NavElementsProps) {
     return (
         <li className={styles.navElement}>
-            <a href={props.href}>{props.title}</a>
+            <a href={props.href}><p className="p1">{props.title}</p></a>
           </li>
     )
 }

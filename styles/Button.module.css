@@ -1,0 +1,41 @@
+.clear {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.button {
+    padding: 24px 32px;
+    text-align: center;
+    color: #0A1482;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    background: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
+    border-radius: 8px;
+    transition: color 0.1s linear;
+    width: 497px;
+    height: min-content;
+}
+
+
+.buttonEffects:hover {
+    color: #3B48D0;
+}
+
+.buttonEffects:active {
+    color: #FFFFFF;
+}
+
+.disabled {
+    cursor: default;
+    opacity: 0.4;
+}
+
+.small {
+    width: 288px;
+}
