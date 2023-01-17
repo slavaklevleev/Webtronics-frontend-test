@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import { Header } from './components/Header'
 import { WelcomeBlock } from './components/WelcomeBlock'
 import { About } from './components/About'
+import { ProgrammingTechnologies } from './components/ProgrammingTechnologesBlock'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Header/>
       <WelcomeBlock/>
       <About/>
+      <ProgrammingTechnologies/>
     </div>
   )
 }

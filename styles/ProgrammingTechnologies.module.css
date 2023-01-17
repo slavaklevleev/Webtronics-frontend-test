@@ -1,0 +1,19 @@
+.wrapper {
+    margin-bottom: 184px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
