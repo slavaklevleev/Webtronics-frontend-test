@@ -7,6 +7,7 @@ import { WelcomeBlock } from './components/WelcomeBlock'
 import { About } from './components/About'
 import { ProgrammingTechnologies } from './components/ProgrammingTechnologesBlock'
 import { StepsBlock } from './components/StepsBlock'
+import { FAQBlock } from './components/FAQBlock'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       <About/>
       <ProgrammingTechnologies/>
       <StepsBlock/>
+      <FAQBlock/>
     </div>
   )
 }
