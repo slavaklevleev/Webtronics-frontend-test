@@ -33,7 +33,7 @@ export function QuestionBlock(props: QuestionBlockProps) {
               props.setSelectedQuestion(!props.isSelected ? props.id : 0)
             }
           >
-            <Image src={plus} width={14} height={14} alt={"plus"} />
+            <Image src={props.isSelected ? plus : minus} width={14} height={14} alt={"plus"} />
           </button>
         </div>
         <p
