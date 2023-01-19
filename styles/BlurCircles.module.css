@@ -1,0 +1,13 @@
+.circle {
+    position: absolute;
+    width: 356px;
+    height: 356px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+
+    background: rgb(42, 62, 132);
+    /* background: radial-gradient(circle, rgba(42, 62, 132, 0.4) 0%, rgba(255, 255, 255, 0) 55%); */
+    filter: blur(170px);
+    -webkit-filter: blur(170px);
+    transform: translate3d(0, 0, 0);
+}
