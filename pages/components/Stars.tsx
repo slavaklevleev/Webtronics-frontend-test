@@ -17,18 +17,12 @@ function getRandomInt(min: number, max: number) {
 }
 
 export function Stars() {
-  // let starsParamentrsArray: StarsParamentrs[] = [];
   const [starsParamentrsArray, setstarsParamentrsArray] = useState<StarsParamentrs[]>([]);
-  if (typeof window !== "undefined") {
-    // detect window screen width function]
-    console.log(window);
-  }
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       let tempStarsParamentrsArray: StarsParamentrs[] = [];
 
-      console.log(window)
       for (let i = 0; i < 35; i++) {
         
         tempStarsParamentrsArray.push({

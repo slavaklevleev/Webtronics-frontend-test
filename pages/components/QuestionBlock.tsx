@@ -17,7 +17,6 @@ export function QuestionBlock(props: QuestionBlockProps) {
 
   useEffect(() => {
     if (textBlockRef.current) {
-        console.log(textBlockRef.current.clientHeight)
         textBlockRef.current.focus();
     }
   }, []);
