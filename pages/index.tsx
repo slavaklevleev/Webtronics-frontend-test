@@ -11,6 +11,7 @@ import { FAQBlock } from './components/FAQBlock'
 import { Review } from './components/ReviewBlock'
 import { GalleryBlock } from './components/Gallery'
 import { ContactUsBlock } from './components/ContactUsBlock'
+import { Footer } from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Review/>
       <GalleryBlock/>
       <ContactUsBlock/>
+      <Footer/>
     </div>
   )
 }

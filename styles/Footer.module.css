@@ -1,0 +1,45 @@
+.wrapper {
+    /* height: 195px; */
+    background: #181c37;
+    border-top: 1px solid;
+    border-image: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%) 1;
+}
+
+.grid {
+    padding: 33px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 100px;
+}
+
+.logo {
+    margin-bottom: 24px;
+    display: block;
+}
+
+.blockHeader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-bottom: 25px;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.navigation ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 145px;
+}
+
+.socialLogo {
+    margin-right: 25px;
+}
