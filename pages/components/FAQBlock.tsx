@@ -48,7 +48,7 @@ export function FAQBlock() {
 
   return (
     <section className={styles.wrapper}>
-      <h2 className={styles.header}>
+      <h2 id="faq" className={styles.header}>
         Frequently Asked <br /> Questions
       </h2>
       <div className={styles.innerWrapper}>

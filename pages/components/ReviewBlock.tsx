@@ -63,7 +63,7 @@ export function Review() {
 
   return (
     <section>
-      <h2 className={styles.header}>Review</h2>
+      <h2 id="review" className={styles.header}>Review</h2>
       <div className={styles.container}>
         <div className={styles.reviewBlock}>
           <h4>{REVIEWS.find((x: ReviewType) => x.id === currentReview)?.title}</h4>

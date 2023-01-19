@@ -21,7 +21,7 @@ const MENTORS = [
 export function About() {
   return (
     <section>
-      <h2 className={styles.header}>About Us</h2>
+      <h2 id="about" className={styles.header}>About Us</h2>
       <div className={styles.wrapper}>
         <div className={styles.mentorsBlock}>
           <h3 className={styles.mentorsHeader}>Mentors</h3>

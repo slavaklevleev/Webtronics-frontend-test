@@ -4,7 +4,7 @@ import styles from "./../../styles/GalleryBlock.module.css";
 export function GalleryBlock() {
   return (
     <section className={styles.container}>
-      <h2 className={styles.header}>Gallery</h2>
+      <h2 id="gallery" className={styles.header}>Gallery</h2>
       <div className={styles.grid}>
         <p className={`p1 ${styles.t1}`}>
           By the end of this course, you will be able to develop and publish

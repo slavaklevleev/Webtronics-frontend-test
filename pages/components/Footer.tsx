@@ -17,11 +17,11 @@ export function Footer() {
           <p className={styles.blockHeader}>Company</p>
           <nav className={styles.navigation}>
             <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Steps</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Review</a></li>
-              <li><a href="#">Gallery</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#review">Review</a></li>
+              <li><a href="#steps">Steps</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#faq">FAQs</a></li>
             </ul>
           </nav>
         </div>

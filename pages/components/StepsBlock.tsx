@@ -58,7 +58,7 @@ export function StepsBlock() {
   return (
     <section className={styles.borderWrapper}>
       <div className={styles.innerWrapper}>
-        <h2 className={styles.header}>Steps</h2>
+        <h2 id="steps" className={styles.header}>Steps</h2>
         <div className={styles.timeline}>
           {STEPS.map(
             (step: Step) => (

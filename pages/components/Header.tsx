@@ -11,11 +11,11 @@ export function Header() {
       </a>
       <nav>
         <ul className={styles.navList}>
-          <NavElement href="#" title="About" />
-          <NavElement href="#" title="Programs" />
-          <NavElement href="#" title="Steps" />
-          <NavElement href="#" title="Questions" />
-          <NavElement href="#" title="Get in touch" />
+          <NavElement href="#about" title="About" />
+          <NavElement href="#technologies" title="Programs" />
+          <NavElement href="#steps" title="Steps" />
+          <NavElement href="#faq" title="Questions" />
+          <NavElement href="#contact" title="Get in touch" />
         </ul>
       </nav>
     </header>
