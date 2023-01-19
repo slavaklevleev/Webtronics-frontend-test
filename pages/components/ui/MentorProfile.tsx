@@ -1,4 +1,4 @@
-import styles from './../../styles/MentorProfile.module.css'
+import styles from './../../../styles/MentorProfile.module.css'
 import Image from "next/image";
 
 interface MentorProfileProps {

@@ -1,6 +1,6 @@
-import { Button } from "./Button";
+import { Button } from "./ui/Button";
 import styles from "./../../styles/ContactUsBlock.module.css";
-import { Input } from "./Input";
+import { Input } from "./ui/Input";
 import { useForm, Resolver } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";

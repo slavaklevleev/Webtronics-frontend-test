@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PhotoCarousel } from "./PhotoCarousel";
+import { PhotoCarousel } from "./ui/PhotoCarousel";
 import styles from "./../../styles/Review.module.css";
 
 interface ReviewType {

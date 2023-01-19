@@ -12,16 +12,14 @@ import { Review } from "./components/ReviewBlock";
 import { GalleryBlock } from "./components/Gallery";
 import { ContactUsBlock } from "./components/ContactUsBlock";
 import { Footer } from "./components/Footer";
-import { Stars } from "./components/Stars";
-import { BlurCircles } from "./components/BlurCircles";
+import { Stars } from "./components/ui/Stars";
+import { BlurCircles } from "./components/ui/BlurCircles";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-    <Stars/>
-    <BlurCircles/>
       <div className={styles.wrapper}>
         <Header />
         <WelcomeBlock />
@@ -34,6 +32,8 @@ export default function Home() {
         <ContactUsBlock />
       </div>
       <Footer />
+      <Stars />
+      <BlurCircles />
     </>
   );
 }

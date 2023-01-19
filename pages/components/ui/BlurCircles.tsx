@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./../../styles/BlurCircles.module.css";
+import styles from "./../../../styles/BlurCircles.module.css";
 import star from "/assets/svg/star.svg";
 import { useEffect, useState } from "react";
 
@@ -24,7 +24,7 @@ export function BlurCircles() {
       for (let i = 0; i < 10; i++) {
         
         tempBlurCirclesArray.push({
-          top: getRandomInt(50, document.body.scrollHeight - 500),
+          top: getRandomInt(1000, document.body.scrollHeight - 500),
           left: getRandomInt(1, 99),
         });
       }

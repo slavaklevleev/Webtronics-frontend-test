@@ -1,4 +1,4 @@
-import { ProgTechIcon } from "./ProgTechIcon";
+import { ProgTechIcon } from "./ui/ProgTechIcon";
 import styles from './../../styles/ProgrammingTechnologies.module.css'
 const TECHNOLOGIES = [
   { name: "Angular", img: "/assets/png/angular.png" },

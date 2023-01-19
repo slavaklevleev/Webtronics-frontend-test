@@ -1,4 +1,4 @@
-import styles from "./../../styles/PhotoCarousel.module.css";
+import styles from "./../../../styles/PhotoCarousel.module.css";
 import { CarouselArrow } from "./Arrows";
 
 interface PhotoObject {

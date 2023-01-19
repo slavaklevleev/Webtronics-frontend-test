@@ -1,7 +1,7 @@
 import logo from "./../../public/logo.svg";
 import styles from "./../../styles/Header.module.css";
 import Image from "next/image";
-import { NavElement } from "./NavElement";
+import { NavElement } from "./ui/NavElement";
 
 export function Header() {
   return (

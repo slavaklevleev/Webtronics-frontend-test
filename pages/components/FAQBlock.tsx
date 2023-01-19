@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./../../styles/FAQBlock.module.css";
-import { StepCard } from "./StepCard";
-import { QuestionBlock } from "./QuestionBlock";
+import { StepCard } from "./ui/StepCard";
+import { QuestionBlock } from "./ui/QuestionBlock";
 import { useState } from "react";
 
 interface Question {

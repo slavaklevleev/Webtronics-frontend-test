@@ -1,7 +1,7 @@
 import Image from "next/image";
-import styles from "./../../styles/QuestionBlock.module.css";
-import plus from "./../../public/assets/svg/plus.svg";
-import minus from "./../../public/assets/svg/minus.svg";
+import styles from "./../../../styles/QuestionBlock.module.css";
+import plus from "./../../../public/assets/svg/plus.svg";
+import minus from "./../../../public/assets/svg/minus.svg";
 import { useEffect, useRef } from "react";
 
 interface QuestionBlockProps {

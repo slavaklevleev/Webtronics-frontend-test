@@ -4,6 +4,7 @@
     height: 356px;
     border-radius: 50%;
     /* border: 1px solid red; */
+    z-index: -10;
 
     background: rgb(42, 62, 132);
     /* background: radial-gradient(circle, rgba(42, 62, 132, 0.4) 0%, rgba(255, 255, 255, 0) 55%); */

@@ -1,4 +1,4 @@
-import styles from "./../../styles/StepCard.module.css";
+import styles from "./../../../styles/StepCard.module.css";
 
 interface StepCardProps {
   id: number;

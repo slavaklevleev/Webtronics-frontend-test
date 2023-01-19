@@ -1,5 +1,5 @@
 import styles from "./../../styles/About.module.css";
-import { MentorProfile } from "./MentorProfile";
+import { MentorProfile } from "./ui/MentorProfile";
 
 const MENTORS = [
   {

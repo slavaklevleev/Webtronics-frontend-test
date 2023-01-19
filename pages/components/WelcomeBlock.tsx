@@ -1,5 +1,5 @@
 import styles from "./../../styles/WelcomeBlock.module.css";
-import { Button } from "./Button";
+import { Button } from "./ui/Button";
 
 export function WelcomeBlock() {
   return (

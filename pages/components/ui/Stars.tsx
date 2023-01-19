@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./../../styles/Stars.module.css";
+import styles from "./../../../styles/Stars.module.css";
 import star from "/assets/svg/star.svg";
 import { useEffect, useState } from "react";
 

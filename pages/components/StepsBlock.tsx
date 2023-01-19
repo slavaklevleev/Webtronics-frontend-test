@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./../../styles/StepsBlock.module.css";
-import { StepCard } from "./StepCard";
+import { StepCard } from "./ui/StepCard";
 
 interface Step {
   id: number;

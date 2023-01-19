@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./../../styles/ProgTechIcon.module.css";
+import styles from "./../../../styles/ProgTechIcon.module.css";
 
 interface ProgTechIconProps {
   name: string;

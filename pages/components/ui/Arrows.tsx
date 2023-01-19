@@ -1,6 +1,6 @@
 import Image from "next/image";
-import prevArrow from "./../../public/assets/svg/prevArrow.svg";
-import styles from "./../../styles/CarouselArrow.module.css"
+import prevArrow from "./../../../public/assets/svg/prevArrow.svg";
+import styles from "./../../../styles/CarouselArrow.module.css"
 
 interface CarouselArrowProps {
   direction: string;
