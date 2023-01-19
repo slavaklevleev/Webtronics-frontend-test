@@ -2,9 +2,10 @@ import styles from "./../../styles/Button.module.css";
 
 interface ButtonProps {
   text: string;
-  className: string;
+  className?: string;
   disabled?: boolean;
   small?: boolean;
+  isError?: boolean
 }
 
 export function Button(props: ButtonProps) {

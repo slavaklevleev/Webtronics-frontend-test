@@ -10,6 +10,7 @@ import { StepsBlock } from './components/StepsBlock'
 import { FAQBlock } from './components/FAQBlock'
 import { Review } from './components/ReviewBlock'
 import { GalleryBlock } from './components/Gallery'
+import { ContactUsBlock } from './components/ContactUsBlock'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function Home() {
       <FAQBlock/>
       <Review/>
       <GalleryBlock/>
+      <ContactUsBlock/>
     </div>
   )
 }

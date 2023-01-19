@@ -1,0 +1,48 @@
+.borderWrapper {
+    position: relative;
+    margin: 0 11px;
+    background: linear-gradient(135deg, #9C37FDB2, #15BFFDB2);
+    padding: 1px;
+    margin-bottom: 150px;
+}
+
+.innerWrapper {
+    backdrop-filter: blur(5px);
+    background: #181c37;
+    background-position: center;
+    padding: 56px 0;
+}
+
+.borderWrapper, .innerWrapper {
+    border-radius: 16px;
+}
+
+.flexWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    width: fit-content;
+    margin: auto;
+}
+
+.flexWrapper h2 {
+    text-align: center;
+    margin: 16px;
+}
+
+.flexWrapper > p {
+    text-align: center;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+}
+
+.inputGroup > div{
+    margin: 8px 0;
+
+}
