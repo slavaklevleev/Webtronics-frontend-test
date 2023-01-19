@@ -17,7 +17,7 @@ export function QuestionBlock(props: QuestionBlockProps) {
 
   useEffect(() => {
     if (textBlockRef.current) {
-        textBlockRef.current.focus();
+      textBlockRef.current.focus();
     }
   }, []);
 
@@ -25,14 +25,25 @@ export function QuestionBlock(props: QuestionBlockProps) {
     <section className={styles.QuestionsCardGradientWrapper}>
       <div className={styles.QuestionsCard}>
         <div className={styles.header}>
-          <h4>{props.question}</h4>
+          <h4
+            onClick={() =>
+              props.setSelectedQuestion(!props.isSelected ? props.id : 0)
+            }
+          >
+            {props.question}
+          </h4>
           <button
             className={styles.clearButton}
             onClick={() =>
               props.setSelectedQuestion(!props.isSelected ? props.id : 0)
             }
           >
-            <Image src={props.isSelected ? plus : minus} width={14} height={14} alt={"plus"} />
+            <Image
+              src={props.isSelected ? plus : minus}
+              width={14}
+              height={14}
+              alt={"plus"}
+            />
           </button>
         </div>
         <p
