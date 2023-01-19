@@ -6,6 +6,7 @@ interface ButtonProps {
   disabled?: boolean;
   type: string;
   errorMessage?: string
+  register?: any;
 }
 
 export function Input(props: ButtonProps) {
@@ -18,6 +19,7 @@ export function Input(props: ButtonProps) {
           } ${!!props.errorMessage && styles.error}`}
           placeholder={props.placeholder}
           disabled={props.disabled}
+          {...props.register}
         />
       </div>
       {!!props.errorMessage && <p className={`p1 ${styles.errorMessage}`}>{props.errorMessage}</p>}

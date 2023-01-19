@@ -46,3 +46,24 @@
     margin: 8px 0;
 
 }
+
+.requestResult {
+    padding: 24px 12px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.success {
+    background: #72EAA6;
+    color: #0A1482;
+}
+
+.error {
+    background: #FD4646;
+    color: #fff;
+
+}
+
+.requestResult p {
+    margin: 0;
+}
