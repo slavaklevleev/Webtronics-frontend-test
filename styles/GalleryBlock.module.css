@@ -1,0 +1,50 @@
+.header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.container {
+    margin-bottom: 180px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+        "t1 pb ps1"
+        "pm pb ps2"
+        "pm t2 t2"
+    ;
+
+    column-gap: 24px;
+    row-gap: 19px;
+}
+
+.t1 {
+    grid-area: t1;
+}
+
+.pb {
+    grid-area: pb;
+}
+
+.ps1 {
+    grid-area: ps1;
+}
+
+.ps2 {
+    grid-area: ps2;
+}
+
+.pm {
+    grid-area: pm;
+}
+
+.t2 {
+    grid-area: t2;
+    align-self: end;
+    margin-bottom: 16px;
+}
+
+.pb, .pm, .ps1, .ps2 {
+    border-radius: 16px;
+}
