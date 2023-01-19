@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export function WelcomeBlock() {
   return (
-    <>
+    <section>
       <div className={styles.grid}>
         <h1 className={styles.h1_1}>Front-End</h1>
         <p className={`p1 ${styles.p}`}>
@@ -15,6 +15,6 @@ export function WelcomeBlock() {
         <h3 className={styles.h3}>Courses</h3>
       </div>
       <div className={styles.programmer}></div>
-    </>
+    </section>
   );
 }

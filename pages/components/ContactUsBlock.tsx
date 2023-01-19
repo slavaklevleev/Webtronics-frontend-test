@@ -4,7 +4,8 @@ import { Input } from "./Input";
 
 export function ContactUsBlock() {
   return (
-    <div className={styles.borderWrapper}>
+    <section>
+      <div className={styles.borderWrapper}>
       <div className={styles.innerWrapper}>
         <div className={styles.flexWrapper}>
           <h2 className={styles.header}>Contact Us</h2>
@@ -20,5 +21,7 @@ export function ContactUsBlock() {
         </div>
       </div>
     </div>
+    </section>
+    
   );
 }

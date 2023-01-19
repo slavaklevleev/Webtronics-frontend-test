@@ -5,7 +5,7 @@ import { NavElement } from "./NavElement";
 
 export function Header() {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <a href="#">
         <Image src={logo} alt="Logo WEBTRONICS" width={169} height={33} />
       </a>
@@ -18,6 +18,6 @@ export function Header() {
           <NavElement href="#" title="Get in touch" />
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }

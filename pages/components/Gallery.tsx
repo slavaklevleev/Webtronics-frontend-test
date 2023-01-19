@@ -3,7 +3,7 @@ import styles from "./../../styles/GalleryBlock.module.css";
 
 export function GalleryBlock() {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h2 className={styles.header}>Gallery</h2>
       <div className={styles.grid}>
         <p className={`p1 ${styles.t1}`}>
@@ -48,6 +48,6 @@ export function GalleryBlock() {
           height={434}
         />
       </div>
-    </div>
+    </section>
   );
 }

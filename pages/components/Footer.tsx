@@ -3,7 +3,7 @@ import logo from "./../../public/logo.svg";
 import Image from "next/image";
 export function Footer() {
   return (
-    <div className={styles.wrapper}>
+    <footer className={styles.wrapper}>
       <div className={styles.grid}>
         <div>
           <a href="#" className={styles.logo}>
@@ -68,6 +68,6 @@ export function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

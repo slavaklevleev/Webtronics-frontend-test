@@ -62,7 +62,7 @@ export function Review() {
   }
 
   return (
-    <div>
+    <section>
       <h2 className={styles.header}>Review</h2>
       <div className={styles.container}>
         <div className={styles.reviewBlock}>
@@ -78,6 +78,6 @@ export function Review() {
           }))}
         />
       </div>
-    </div>
+    </section>
   );
 }

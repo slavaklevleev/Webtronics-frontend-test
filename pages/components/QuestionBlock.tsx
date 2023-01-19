@@ -23,7 +23,7 @@ export function QuestionBlock(props: QuestionBlockProps) {
   }, []);
 
   return (
-    <div className={styles.QuestionsCardGradientWrapper}>
+    <section className={styles.QuestionsCardGradientWrapper}>
       <div className={styles.QuestionsCard}>
         <div className={styles.header}>
           <h4>{props.question}</h4>
@@ -45,6 +45,6 @@ export function QuestionBlock(props: QuestionBlockProps) {
           {props.answer}
         </p>
       </div>
-    </div>
+    </section>
   );
 }

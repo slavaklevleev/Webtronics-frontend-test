@@ -9,7 +9,7 @@ const TECHNOLOGIES = [
 
 export function ProgrammingTechnologies() {
   return (
-    <div className={styles.wrapper}>
+    <section className={styles.wrapper}>
       <h2 className={styles.header}>Programming<br/>technologies</h2>
       <p className={`p1 ${styles.text}`}>
         By the end, you’ll have the portfolio and interview skills <br/> you need to
@@ -25,6 +25,6 @@ export function ProgrammingTechnologies() {
         }
         
       </div>
-    </div>
+    </section>
   );
 }

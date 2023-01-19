@@ -56,7 +56,7 @@ const STEPS = [
 
 export function StepsBlock() {
   return (
-    <div className={styles.borderWrapper}>
+    <section className={styles.borderWrapper}>
       <div className={styles.innerWrapper}>
         <h2 className={styles.header}>Steps</h2>
         <div className={styles.timeline}>
@@ -74,6 +74,6 @@ export function StepsBlock() {
           <div className={styles.timeline}> </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

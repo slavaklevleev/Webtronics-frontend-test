@@ -47,7 +47,7 @@ export function FAQBlock() {
   const [selectedQuestion, setSelectedQuestion] = useState(1);
 
   return (
-    <div className={styles.wrapper}>
+    <section className={styles.wrapper}>
       <h2 className={styles.header}>
         Frequently Asked <br /> Questions
       </h2>
@@ -77,6 +77,6 @@ export function FAQBlock() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

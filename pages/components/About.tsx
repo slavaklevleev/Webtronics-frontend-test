@@ -20,7 +20,7 @@ const MENTORS = [
 ];
 export function About() {
   return (
-    <>
+    <section>
       <h2 className={styles.header}>About Us</h2>
       <div className={styles.wrapper}>
         <div className={styles.mentorsBlock}>
@@ -51,6 +51,6 @@ export function About() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
