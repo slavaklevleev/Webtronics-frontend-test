@@ -1,0 +1,82 @@
+.borderWrapper {
+    position: relative;
+    margin: 0 11px;
+    background: linear-gradient(135deg, #9C37FDB2, #15BFFDB2);
+    padding: 1px;
+}
+
+.innerWrapper {
+    backdrop-filter: blur(5px);
+    background: #181c37;
+    height: 422px;
+    width: 182px;
+    background-position: center;
+    transition: background-image 0.5s;
+}
+
+.borderWrapper, .innerWrapper {
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 90%, 80% 100%, 0 100%);
+    border-radius: 16px;
+
+}
+.photoCarousel .borderWrapper:first-child, .photoCarousel  .borderWrapper:first-child .innerWrapper {
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 80%, 80% 100%, 0 100%);
+}
+
+.photoCarousel .borderWrapper:first-child .innerWrapper {
+    width: 392px;
+}
+
+.photoCarousel {
+    display: flex;
+    flex-direction: row;
+
+    grid-area: p;
+}
+
+
+.name {
+    text-align: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+
+    grid-area: c;
+}
+
+.currentCounter, .totalNumCounter{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 0;
+}
+
+.totalNumCounter {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.arrows {
+    grid-area: a;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-self: right;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "c a"
+    "p p";
+
+    row-gap: 16px;
+    align-items: center;
+
+}
+
