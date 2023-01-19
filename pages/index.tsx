@@ -12,12 +12,14 @@ import { Review } from "./components/ReviewBlock";
 import { GalleryBlock } from "./components/Gallery";
 import { ContactUsBlock } from "./components/ContactUsBlock";
 import { Footer } from "./components/Footer";
+import { Stars } from "./components/Stars";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+    <Stars/>
       <div className={styles.wrapper}>
         <Header />
         <WelcomeBlock />
